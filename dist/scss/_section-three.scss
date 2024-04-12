@@ -1,0 +1,130 @@
+// SECTION THREE STYLING
+.section-three{
+    background-color: $background-color2;
+    @include basics();
+    text-align: center;
+ 
+    h1{
+       font-size: $font-size2;
+       color: $text-color1;
+       margin-bottom: 50px;
+       margin-top: 40px;
+
+       @media screen and (max-width: 600px){
+         font-size: $font-size4;
+      }
+    }
+
+    p{
+      color: $text-color3;
+      font-size: $font-size5;
+      margin-bottom: 100px;
+
+      @media screen and (max-width: 600px){
+         font-size: 18px;
+      }
+
+    }
+ 
+    .flex-div {
+       width: 90vw;
+ 
+      //  border: 2px solid red;
+       @include flex();
+
+      
+
+       .circle-div{
+          //height and width should be 'fit-content'
+          height: 150px;
+          width: 150px;
+          border-radius: 50%;
+         //  border: 2px solid rgb(248, 207, 207);
+
+         @media screen and (max-width: 600px){
+            height: 80px;
+            width: 80px;
+         }
+
+          .fas{
+            font-size: 100px;
+            color: fuchsia;
+
+            @media screen and (max-width: 600px){
+               font-size: 40px;
+            }
+         }
+       }
+ 
+       .circle-div2{
+          height: 300px;
+          width: 300px;
+          border-radius: 50%;
+         //  border: 2px solid rgb(248, 207, 207);
+
+         @media screen and (max-width: 600px){
+            height: 100px;
+            width: 100px;
+         }
+
+          .fab{
+            font-size: 200px;
+            color: fuchsia;
+
+            @media screen and (max-width: 600px){
+               font-size: 80px;
+            }
+         }
+       }
+    }
+ 
+    .second-flex-div{
+       @include flex();
+ 
+       padding: 20px;
+      //  border: 2px solid red;
+       flex-wrap: wrap;
+
+       img{
+         // width: 60%;
+         border: 2px solid red;
+       }
+ 
+ 
+       .flex-details{
+          box-shadow: 1px 0px 10px rgb(75, 74, 74);
+          padding: 18px;
+          height: 250px;
+          width: 300px;
+          margin: auto;
+ 
+ 
+          .icon-circle{
+             background: linear-gradient(180deg, rgb(145, 15, 145), rgb(3, 3, 124));
+             height: 55px;
+             width: 70px;
+             margin: auto;
+             border-radius: 50%;
+             padding-top: 15px;
+          }
+
+          .fas{
+            font-size: $font-size2;
+            color: rgb(248, 241, 248);
+          }
+ 
+          h3{
+             color: $text-color1;
+             font-size: $font-size4;
+          }
+ 
+          p{
+             color: $text-color3;
+             font-size: 18px
+          }
+       }
+    }
+  }
+ 
+ 
+ 

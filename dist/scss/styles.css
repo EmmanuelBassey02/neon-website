@@ -1,0 +1,831 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(21, 21, 44);
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  gap: 30px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  border-bottom: 2px solid rgb(74, 2, 74);
+}
+header h1 {
+  color: rgb(201, 196, 198);
+}
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 25px;
+  }
+}
+header h1 span {
+  color: rgb(248, 3, 248);
+}
+header .buttons-div {
+  display: flex;
+  gap: 30px;
+}
+header .buttons-div .first-btn {
+  color: rgb(201, 196, 198);
+  padding: 9px;
+  border-radius: 7px;
+  width: fit;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-size: 15px;
+  color: rgb(201, 196, 198);
+}
+header .buttons-div .second-btn {
+  background-color: rgb(80, 80, 248);
+  color: white;
+  padding: 9px;
+  border-radius: 7px;
+  width: fit;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-size: 15px;
+  color: rgb(201, 196, 198);
+}
+header .buttons-div .second-btn:hover {
+  background-color: rgb(243, 30, 232);
+  color: black;
+}
+
+.section-one {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  background: linear-gradient(45deg, rgb(21, 21, 44), rgb(21, 21, 44), rgb(76, 6, 72));
+  padding-top: 85px;
+}
+@media screen and (max-width: 600px) {
+  .section-one {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section-one {
+    padding-top: 55px;
+  }
+}
+.section-one .text-wrapper {
+  width: 620px;
+  height: 400px;
+}
+.section-one .text-wrapper sub {
+  font-size: 14px;
+  color: rgb(201, 196, 198);
+  background: rgb(3, 3, 23);
+  border-radius: 20px;
+  padding: 12px;
+}
+.section-one .text-wrapper sub .sub-span {
+  color: rgb(245, 107, 245);
+}
+.section-one .text-wrapper h1 {
+  font-size: 65px;
+  color: white;
+  margin-top: 15px;
+}
+.section-one .text-wrapper h1 .software {
+  color: fuchsia;
+}
+@media screen and (max-width: 600px) {
+  .section-one .text-wrapper h1 {
+    font-size: 30px;
+  }
+}
+.section-one .text-wrapper p {
+  color: rgb(201, 196, 198);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+  .section-one .text-wrapper p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+}
+.section-one .text-wrapper .first-btn {
+  color: white;
+  background-color: rgb(80, 80, 248);
+  font-weight: bold;
+  padding: 9px;
+  border-radius: 7px;
+  width: fit;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-size: 15px;
+  color: rgb(201, 196, 198);
+}
+.section-one .text-wrapper .first-btn:hover {
+  background-color: rgb(150, 8, 143);
+}
+.section-one .text-wrapper .second-btn {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(73, 72, 72);
+  padding: 9px;
+  border-radius: 7px;
+  width: fit;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-size: 15px;
+  color: rgb(201, 196, 198);
+}
+@media screen and (max-width: 600px) {
+  .section-one .text-wrapper .second-btn {
+    margin-top: 10px;
+  }
+}
+.section-one img {
+  height: 360px;
+  width: 490px;
+  margin-top: 15px;
+}
+@media screen and (max-width: 600px) {
+  .section-one img {
+    height: 250px;
+    width: 370px;
+    margin-top: -35px;
+    margin-left: -30px;
+  }
+}
+
+.section-two {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: black;
+}
+@media screen and (max-width: 600px) {
+  .section-two {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section-two {
+    height: -10px;
+    padding-top: -300px;
+  }
+}
+.section-two .brands-div {
+  font-size: 30px;
+  font-weight: bold;
+  color: gray;
+}
+@media screen and (max-width: 600px) {
+  .section-two .brands-div {
+    height: 35px;
+  }
+}
+
+.section-three {
+  background-color: rgb(13, 13, 34);
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .section-three {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+.section-three h1 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 600px) {
+  .section-three h1 {
+    font-size: 25px;
+  }
+}
+.section-three p {
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 600px) {
+  .section-three p {
+    font-size: 18px;
+  }
+}
+.section-three .flex-div {
+  width: 90vw;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.section-three .flex-div .circle-div {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 600px) {
+  .section-three .flex-div .circle-div {
+    height: 80px;
+    width: 80px;
+  }
+}
+.section-three .flex-div .circle-div .fas {
+  font-size: 100px;
+  color: fuchsia;
+}
+@media screen and (max-width: 600px) {
+  .section-three .flex-div .circle-div .fas {
+    font-size: 40px;
+  }
+}
+.section-three .flex-div .circle-div2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+@media screen and (max-width: 600px) {
+  .section-three .flex-div .circle-div2 {
+    height: 100px;
+    width: 100px;
+  }
+}
+.section-three .flex-div .circle-div2 .fab {
+  font-size: 200px;
+  color: fuchsia;
+}
+@media screen and (max-width: 600px) {
+  .section-three .flex-div .circle-div2 .fab {
+    font-size: 80px;
+  }
+}
+.section-three .second-flex-div {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.section-three .second-flex-div img {
+  border: 2px solid red;
+}
+.section-three .second-flex-div .flex-details {
+  box-shadow: 1px 0px 10px rgb(75, 74, 74);
+  padding: 18px;
+  height: 250px;
+  width: 300px;
+  margin: auto;
+}
+.section-three .second-flex-div .flex-details .icon-circle {
+  background: linear-gradient(180deg, rgb(145, 15, 145), rgb(3, 3, 124));
+  height: 55px;
+  width: 70px;
+  margin: auto;
+  border-radius: 50%;
+  padding-top: 15px;
+}
+.section-three .second-flex-div .flex-details .fas {
+  font-size: 35px;
+  color: rgb(248, 241, 248);
+}
+.section-three .second-flex-div .flex-details h3 {
+  color: white;
+  font-size: 25px;
+}
+.section-three .second-flex-div .flex-details p {
+  color: gray;
+  font-size: 18px;
+}
+
+.section-four {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+  height: fit-content;
+  background: linear-gradient(45deg, rgb(21, 21, 44), rgb(21, 21, 44), rgb(76, 6, 72));
+  text-align: center;
+  padding-bottom: 90px;
+}
+@media screen and (max-width: 600px) {
+  .section-four {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+.section-four h1 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 45px;
+}
+@media screen and (max-width: 600px) {
+  .section-four h1 {
+    font-size: 25px;
+  }
+}
+.section-four .p-title {
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+@media screen and (max-width: 600px) {
+  .section-four .p-title {
+    font-size: 17px;
+  }
+}
+.section-four .section4-div {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 85vw;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 900px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.section-four .section4-div .inner-divs {
+  text-align: left;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 420px;
+  padding: 10px;
+  margin: auto;
+}
+.section-four .section4-div .inner-divs i {
+  font-size: 90px;
+  color: rgb(80, 80, 248);
+  margin-top: 35px;
+}
+.section-four .section4-div .inner-divs h2 {
+  font-size: 25px;
+  color: rgb(206, 42, 206);
+  margin-bottom: 25px;
+}
+.section-four .section4-div .inner-divs p {
+  font-size: 20px;
+  color: gray;
+}
+@media screen and (max-width: 600px) {
+  .section-four .section4-div .inner-divs p {
+    font-size: 18px;
+  }
+}
+
+.section-five {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: rgb(13, 13, 34);
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .section-five {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+.section-five h1 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 600px) {
+  .section-five h1 {
+    font-size: 25px;
+  }
+}
+.section-five .p-title {
+  font-size: 20px;
+  color: gray;
+}
+@media screen and (max-width: 600px) {
+  .section-five .p-title {
+    font-size: 18px;
+  }
+}
+.section-five .card-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  margin: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 100px;
+}
+.section-five .card-wrapper .div-card-middle {
+  margin: auto;
+  height: 460px;
+  width: 280px;
+  padding: 18px;
+  text-align: left;
+  background-color: rgb(3, 3, 23);
+  box-shadow: -1px 0px 20px rgb(80, 80, 248);
+}
+.section-five .card-wrapper .div-card-middle h3 {
+  font-size: 20px;
+  color: rgb(201, 196, 198);
+  padding-bottom: 10px;
+}
+.section-five .card-wrapper .div-card-middle h1 {
+  font-size: 35px;
+  color: rgb(201, 196, 198);
+}
+.section-five .card-wrapper .div-card-middle h1 span {
+  color: gray;
+}
+.section-five .card-wrapper .div-card-middle h1 .span-duration {
+  font-size: 20px;
+}
+.section-five .card-wrapper .div-card-middle p {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.section-five .card-wrapper .div-card-middle .cta-btn {
+  background-color: rgb(80, 80, 248);
+  padding: 9px;
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.section-five .card-wrapper .div-card-middle h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+.section-five .card-wrapper .div-card {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 280px;
+  padding: 15px;
+  text-align: left;
+  margin: auto;
+  box-shadow: -1px 0px 20px rgb(92, 7, 88);
+  border-radius: 10px;
+}
+.section-five .card-wrapper .div-card h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+.section-five .card-wrapper .div-card h3 {
+  font-size: 20px;
+  color: rgb(201, 196, 198);
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+  .section-five .card-wrapper .div-card h3 {
+    font-size: 25px;
+  }
+}
+.section-five .card-wrapper .div-card h1 {
+  font-size: 35px;
+  color: rgb(201, 196, 198);
+}
+.section-five .card-wrapper .div-card h1 span {
+  color: gray;
+}
+.section-five .card-wrapper .div-card h1 .span-duration {
+  font-size: 20px;
+}
+.section-five .card-wrapper .div-card p {
+  color: gray;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+.section-five .card-wrapper .div-card .cta-btn {
+  background-color: rgb(80, 80, 248);
+  padding: 9px;
+  border-radius: 5px;
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.section-five .card-wrapper .div-card h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.section-six {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+  height: fit-content;
+  background-color: rgb(13, 13, 34);
+}
+@media screen and (max-width: 600px) {
+  .section-six {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+.section-six h1 {
+  font-size: 35px;
+  color: rgb(201, 196, 198);
+  margin: auto;
+  margin-top: 50px;
+}
+@media screen and (max-width: 600px) {
+  .section-six h1 {
+    font-size: 25px;
+  }
+}
+.section-six .box-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin-top: 70px;
+}
+.section-six .box-wrapper .box {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  flex-basis: 270px;
+  background-color: rgb(31, 31, 55);
+  padding: 20px;
+  text-align: left;
+}
+.section-six .box-wrapper .box img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid rgb(175, 42, 168);
+}
+.section-six .box-wrapper .box p {
+  color: gray;
+  margin-bottom: 15px;
+}
+.section-six .box-wrapper .box h5 {
+  color: rgb(201, 196, 198);
+}
+.section-six .box-wrapper .box h5 span {
+  color: rgb(96, 96, 241);
+}
+
+.section-seven {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+  height: fit-content;
+  background: linear-gradient(-45deg, rgb(21, 21, 44), rgb(21, 21, 44), rgb(76, 6, 72));
+}
+@media screen and (max-width: 600px) {
+  .section-seven {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+.section-seven h1 {
+  font-size: 35px;
+  color: rgb(201, 196, 198);
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 600px) {
+  .section-seven h1 {
+    font-size: 25px;
+  }
+}
+.section-seven h1 span {
+  color: rgb(173, 5, 173);
+}
+.section-seven .div-btn-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.section-seven .div-btn-wrapper .div-btn {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 170px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: rgb(201, 196, 198);
+  background-color: rgb(31, 31, 55);
+}
+.section-seven .div-btn-wrapper .div-btn:hover {
+  background-color: rgb(243, 30, 232);
+  color: black;
+}
+.section-seven .box-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+.section-seven .box-wrapper .box {
+  color: rgb(201, 196, 198);
+  background-color: rgb(31, 31, 55);
+  text-align: left;
+  width: 230px;
+  padding: 15px;
+  margin: auto;
+  border: 1px solid rgb(109, 6, 109);
+  border-radius: 5px;
+}
+.section-seven .box-wrapper .box i {
+  font-size: 30px;
+}
+.section-seven .box-wrapper .box h3 {
+  color: rgb(201, 196, 198);
+}
+
+.section-eight {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 55px;
+  padding-bottom: 75px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  background: linear-gradient(22deg, rgb(3, 3, 48), rgb(5, 3, 48), rgb(76, 6, 72));
+}
+@media screen and (max-width: 600px) {
+  .section-eight {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+}
+.section-eight .text-wrapper h2 {
+  color: white;
+  font-size: 35px;
+  font-family: monospace;
+}
+@media screen and (max-width: 600px) {
+  .section-eight .text-wrapper h2 {
+    font-size: 25px;
+  }
+}
+.section-eight .text-wrapper p {
+  color: rgb(201, 196, 198);
+  font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+  .section-eight .text-wrapper p {
+    font-size: 18px;
+  }
+}
+.section-eight button {
+  padding: 9px;
+  border-radius: 7px;
+  width: fit;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+  font-size: 15px;
+  color: rgb(201, 196, 198);
+  background-color: rgb(80, 80, 248);
+}
+.section-eight button:hover {
+  background-color: rgb(173, 5, 173);
+  border: 2px solid;
+}
+
+.footer {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  background-color: rgb(13, 13, 34);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer div {
+  margin-top: 10px;
+}
+.footer div h3 {
+  font-size: 25px;
+  color: rgb(142, 9, 142);
+}
+.footer div a {
+  list-style-type: none;
+  text-decoration: none;
+}
+.footer div p {
+  color: gray;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.last-section {
+  background-color: black;
+  padding: 20px;
+  padding-top: 30px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.last-section a, .last-section p {
+  color: gray;
+  font-size: 18px;
+}
+.last-section p {
+  color: gray;
+  margin-top: 40px;
+  font-size: 18px;
+}
+.last-section h5 {
+  font-size: 18px;
+  color: gray;
+}
+.last-section h5 span:hover a {
+  color: rgb(227, 79, 227);
+}/*# sourceMappingURL=styles.css.map */

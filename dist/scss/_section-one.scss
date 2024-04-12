@@ -1,0 +1,100 @@
+// SECTION ONE STYLING
+.section-one{
+    @include basics();
+    @include flex();
+    flex-wrap: wrap;
+    background: $bg-gradient;
+   //  border: 2px solid red;
+    padding-top: 85px;
+
+    @media screen and (max-width: 600px){
+      padding-top: 55px;
+    }
+
+    .text-wrapper{
+      // border: 2px solid red;
+      width: 620px;
+      height: 400px;
+    
+ 
+    sub{
+       font-size: $font-size-small;
+       color: $text-color2;
+       background: $flexbox-bg-color;
+       border-radius: 20px;
+       padding: 12px;
+      //  margin-bottom: 109px;
+
+       
+ 
+       .sub-span{
+          color: rgb(245, 107, 245);
+       }
+    }
+ 
+    h1{
+       font-size: $font-size1;
+       color: $text-color1;
+       margin-top: 15px;
+ 
+       .software{
+          color: fuchsia;
+       }
+
+       @media screen and (max-width: 600px){
+         font-size: 30px;
+       }
+    }
+ 
+    p{
+       color: $text-color2;
+       font-size:  $font-size5;
+       margin-bottom: 10px;
+
+       @media screen and (max-width: 600px){
+         font-size: 16px;
+         font-family: monospace;
+       }
+    }
+ 
+    .first-btn{
+       color: $text-color1;
+       background-color: $button-bgColor;
+       font-weight: bold;
+       @include button();
+
+       &:hover{
+         background-color: rgb(150, 8, 143);
+       }
+    }
+ 
+    .second-btn{
+       color: $text-color1;
+       font-weight: bold;
+      background-color: rgb(73, 72, 72);
+       @include button();
+
+       @media screen and (max-width: 600px){
+         margin-top: 10px;
+       }
+    }
+   }
+
+  img{
+   // border: 2px solid red;
+   height: 360px;
+   width: 490px;
+   margin-top: 15px;
+
+   @media screen and (max-width: 600px){
+      height: 250px;
+      width: 370px;
+      margin-top: -35px;
+      // border: 2px solid red;
+      margin-left: -30px;
+   }
+  }
+  }
+
+ 
+ 

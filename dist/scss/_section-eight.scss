@@ -1,0 +1,39 @@
+//  SECTION EIGHT STYLING
+.section-eight{
+    @include basics();
+    @include flex();
+    flex-wrap: wrap;
+    background: linear-gradient(22deg, rgb(3, 3, 48), rgb(5, 3, 48), rgb(76, 6, 72));
+  
+     .text-wrapper{
+        // border: 2px solid red;
+  
+      h2{
+        color: $text-color1;
+        font-size: $font-size2;
+        font-family: monospace;
+  
+        @media screen and (max-width: 600px){
+           font-size: $font-size4;
+         //   margin-top: 20px;
+          }
+      }
+  
+      p{
+        color: $text-color2;
+        font-size: $font-size5;
+        @media screen and (max-width: 600px){
+           font-size: 18px;
+          }
+      }
+     }
+  
+     button{
+        @include button();
+       background-color: $button-bgColor;
+       &:hover{
+        background-color: rgb(173, 5, 173);
+        border: 2px solid;
+       }
+     }
+  }

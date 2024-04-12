@@ -1,0 +1,102 @@
+   //   VARIABLES
+$background-color: rgb(21, 21, 44);
+$background-color2: rgb(13, 13, 34);
+$bg-gradient: linear-gradient(45deg, rgb(21, 21, 44),  rgb(21, 21, 44), rgb(76, 6, 72));
+$bg-gradient2: linear-gradient(-45deg, rgb(21, 21, 44),  rgb(21, 21, 44), rgb(76, 6, 72));
+$button-bgColor: rgb(80, 80, 248);
+$flexbox-bg-color: rgb(3, 3, 23);
+$text-color1: white;
+$text-color2: rgb(201, 196, 198);
+$text-color3: gray;
+$font-size1: 65px;
+$font-size2: 35px;
+$font-size3: 30px;
+$font-size4: 25px;
+$font-size5: 20px;
+$font-size-small: 14px;
+
+
+
+      //   MIXINS 
+      @mixin button {
+         padding: 9px;
+         border-radius: 7px;
+         width: fit;
+         padding-left: 12px;
+         padding-right: 12px;
+         border: none;
+         font-size: 15px;
+         color: $text-color2;
+      }
+
+      @mixin flex {
+         display: flex;
+         gap: 30px;
+         justify-content: space-between;
+         align-items: center;
+         margin: auto;
+
+         // @media screen and (max-width: 600px){
+         //    gap: 12px;
+         // }
+      }
+
+
+      @mixin basics {
+          padding-left: 4vw;
+          padding-right: 4vw;
+          padding-top: 55px;
+          padding-bottom: 75px;
+          height: fit-content;
+
+          @media screen and (max-width: 600px){
+            padding-bottom: 30px;
+            padding-top: 30px;
+
+          }
+      }
+
+
+
+body{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+ }
+
+  @import './header';
+
+  @import './section-one';
+
+  @import './section-two';
+
+  @import './section-three';
+
+  @import './section-four';
+
+  @import './section-five';
+
+  @import './section-six';
+
+  @import './section-seven';
+
+  @import './section-eight';
+
+  @import './footer';
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+    // button{
+    //     background-color: $button-bgColor;
+    //     color: $textColor;
+    //     &:hover{
+    //         background-color: green;
+    //         transition: all 0.19s linear;
+    //      }
+    // }
+
+
+
+header{
+    background-color: $background-color;
+    @include flex();
+    gap: 30px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 2px solid rgb(74, 2, 74);
+
+       h1{
+         color: $text-color2;
+
+         @media screen and (max-width:600px){
+            font-size: $font-size4;
+         }
+
+         span{
+            color:  rgb(248, 3, 248);
+         }
+    }
+ 
+    .buttons-div{
+       display: flex;
+       gap: 30px;
+ 
+       .first-btn{
+          color: $text-color2;
+ 
+          @include button();
+       }
+ 
+       .second-btn{
+          background-color: $button-bgColor;
+          color: $text-color1;
+          &:hover{
+            background-color: rgb(243, 30, 232);
+            color: black;
+          }
+ 
+          @include button();
+       }
+    }
+ }

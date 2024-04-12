@@ -1,0 +1,24 @@
+ // SECTION TWO STYLING
+ .section-two{
+    @include basics();
+    @include flex();
+    background-color: black;
+
+    @media screen and (max-width: 600px){
+      height: -10px;
+      padding-top: -300px;
+   }
+    
+    
+   .brands-div{
+    font-size: $font-size3;
+    font-weight: bold;
+    color: $text-color3;
+   //  border: 2px solid red;
+
+   @media screen and (max-width: 600px){
+      height: 35px;
+   }
+
+   }
+  }
