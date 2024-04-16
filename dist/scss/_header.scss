@@ -53,8 +53,8 @@ header{
           background-color: $button-bgColor;
           color: $text-color1;
           &:hover{
-            background-color: rgb(243, 30, 232);
-            color: black;
+            background-color: rgb(215, 43, 207);
+            // color: black;
           }
  
           @include button();

@@ -16,7 +16,7 @@
       }
     }
 
-    p{
+    .p-title1{
       color: $text-color3;
       font-size: $font-size5;
       margin-bottom: 100px;
@@ -36,7 +36,6 @@
       
 
        .circle-div{
-          //height and width should be 'fit-content'
           height: 150px;
           width: 150px;
           border-radius: 50%;
@@ -94,8 +93,11 @@
        .flex-details{
           box-shadow: 1px 0px 10px rgb(75, 74, 74);
           padding: 18px;
-          height: 320px;
+         //  height: 290px;
+          height: fit-content;
+          padding-bottom: -40px;
           width: 300px;
+          margin: auto;
          // border: 2px solid rgb(60, 255, 0);
 
  
@@ -123,7 +125,7 @@
              color: $text-color3;
              font-size: 18px;
              @media screen and (max-width: 600px){
-               font-size: 16px;
+               font-size: 14px;
              }
           }
        }
