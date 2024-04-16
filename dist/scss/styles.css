@@ -720,7 +720,7 @@ header .buttons-div .second-btn:hover {
   }
 }
 .section-seven h1 span {
-  color: rgb(173, 5, 173);
+  color: rgb(233, 22, 233);
 }
 .section-seven .div-btn-wrapper {
   display: flex;
@@ -738,7 +738,7 @@ header .buttons-div .second-btn:hover {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  width: 170px;
+  width: 200px;
   border-radius: 20px;
   border: 1px solid gray;
   padding: 10px;
