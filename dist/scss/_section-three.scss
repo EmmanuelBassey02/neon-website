@@ -3,6 +3,7 @@
     background-color: $background-color2;
     @include basics();
     text-align: center;
+    font-family: 'Poppins', sans-serif;
  
     h1{
        font-size: $font-size2;
@@ -21,7 +22,7 @@
       margin-bottom: 100px;
 
       @media screen and (max-width: 600px){
-         font-size: 18px;
+         font-size: 16px;
       }
 
     }
@@ -85,18 +86,18 @@
       //  border: 2px solid red;
        flex-wrap: wrap;
 
-       img{
-         // width: 60%;
-         border: 2px solid red;
-       }
+      //  img{
+      //    // width: 60%;
+      //  }
  
  
        .flex-details{
           box-shadow: 1px 0px 10px rgb(75, 74, 74);
           padding: 18px;
-          height: 250px;
+          height: 320px;
           width: 300px;
-          margin: auto;
+         // border: 2px solid rgb(60, 255, 0);
+
  
  
           .icon-circle{
@@ -120,7 +121,10 @@
  
           p{
              color: $text-color3;
-             font-size: 18px
+             font-size: 18px;
+             @media screen and (max-width: 600px){
+               font-size: 16px;
+             }
           }
        }
     }

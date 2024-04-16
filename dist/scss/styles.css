@@ -8,6 +8,7 @@ body {
 }
 
 header {
+  font-family: "Poppins", sans-serif;
   background-color: rgb(21, 21, 44);
   display: flex;
   gap: 30px;
@@ -40,7 +41,7 @@ header .buttons-div {
   gap: 30px;
 }
 header .buttons-div .first-btn {
-  color: rgb(201, 196, 198);
+  color: black;
   padding: 9px;
   border-radius: 7px;
   width: fit;
@@ -48,7 +49,10 @@ header .buttons-div .first-btn {
   padding-right: 12px;
   border: none;
   font-size: 15px;
-  color: rgb(201, 196, 198);
+}
+header .buttons-div .first-btn:hover {
+  background-color: rgb(190, 186, 190);
+  color: black;
 }
 header .buttons-div .second-btn {
   background-color: rgb(80, 80, 248);
@@ -60,7 +64,6 @@ header .buttons-div .second-btn {
   padding-right: 12px;
   border: none;
   font-size: 15px;
-  color: rgb(201, 196, 198);
 }
 header .buttons-div .second-btn:hover {
   background-color: rgb(243, 30, 232);
@@ -80,6 +83,7 @@ header .buttons-div .second-btn:hover {
   align-items: center;
   margin: auto;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
   background: linear-gradient(45deg, rgb(21, 21, 44), rgb(21, 21, 44), rgb(76, 6, 72));
   padding-top: 85px;
 }
@@ -103,7 +107,12 @@ header .buttons-div .second-btn:hover {
   color: rgb(201, 196, 198);
   background: rgb(3, 3, 23);
   border-radius: 20px;
-  padding: 12px;
+}
+@media screen {
+  .section-one .text-wrapper sub {
+    padding: 9px;
+    font-size: 12px;
+  }
 }
 .section-one .text-wrapper sub .sub-span {
   color: rgb(245, 107, 245);
@@ -118,7 +127,7 @@ header .buttons-div .second-btn:hover {
 }
 @media screen and (max-width: 600px) {
   .section-one .text-wrapper h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 .section-one .text-wrapper p {
@@ -129,7 +138,6 @@ header .buttons-div .second-btn:hover {
 @media screen and (max-width: 600px) {
   .section-one .text-wrapper p {
     font-size: 16px;
-    font-family: monospace;
   }
 }
 .section-one .text-wrapper .first-btn {
@@ -143,7 +151,6 @@ header .buttons-div .second-btn:hover {
   padding-right: 12px;
   border: none;
   font-size: 15px;
-  color: rgb(201, 196, 198);
 }
 .section-one .text-wrapper .first-btn:hover {
   background-color: rgb(150, 8, 143);
@@ -159,7 +166,10 @@ header .buttons-div .second-btn:hover {
   padding-right: 12px;
   border: none;
   font-size: 15px;
-  color: rgb(201, 196, 198);
+}
+.section-one .text-wrapper .second-btn:hover {
+  background-color: rgb(248, 245, 248);
+  color: black;
 }
 @media screen and (max-width: 600px) {
   .section-one .text-wrapper .second-btn {
@@ -193,6 +203,7 @@ header .buttons-div .second-btn:hover {
   align-items: center;
   margin: auto;
   background-color: black;
+  font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 600px) {
   .section-two {
@@ -226,6 +237,7 @@ header .buttons-div .second-btn:hover {
   height: -moz-fit-content;
   height: fit-content;
   text-align: center;
+  font-family: "Poppins", sans-serif;
 }
 @media screen and (max-width: 600px) {
   .section-three {
@@ -251,7 +263,7 @@ header .buttons-div .second-btn:hover {
 }
 @media screen and (max-width: 600px) {
   .section-three p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .section-three .flex-div {
@@ -311,15 +323,11 @@ header .buttons-div .second-btn:hover {
   padding: 20px;
   flex-wrap: wrap;
 }
-.section-three .second-flex-div img {
-  border: 2px solid red;
-}
 .section-three .second-flex-div .flex-details {
   box-shadow: 1px 0px 10px rgb(75, 74, 74);
   padding: 18px;
-  height: 250px;
+  height: 320px;
   width: 300px;
-  margin: auto;
 }
 .section-three .second-flex-div .flex-details .icon-circle {
   background: linear-gradient(180deg, rgb(145, 15, 145), rgb(3, 3, 124));
@@ -341,6 +349,11 @@ header .buttons-div .second-btn:hover {
   color: gray;
   font-size: 18px;
 }
+@media screen and (max-width: 600px) {
+  .section-three .second-flex-div .flex-details p {
+    font-size: 16px;
+  }
+}
 
 .section-four {
   padding-left: 4vw;
@@ -349,6 +362,7 @@ header .buttons-div .second-btn:hover {
   padding-bottom: 75px;
   height: -moz-fit-content;
   height: fit-content;
+  font-family: "Poppins", sans-serif;
   height: fit-content;
   background: linear-gradient(45deg, rgb(21, 21, 44), rgb(21, 21, 44), rgb(76, 6, 72));
   text-align: center;
@@ -372,13 +386,13 @@ header .buttons-div .second-btn:hover {
   }
 }
 .section-four .p-title {
-  color: gray;
-  font-size: 20px;
+  color: rgb(201, 196, 198);
+  font-size: 18px;
   margin-bottom: 90px;
 }
 @media screen and (max-width: 600px) {
   .section-four .p-title {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 .section-four .section4-div {
@@ -409,7 +423,7 @@ header .buttons-div .second-btn:hover {
 }
 .section-four .section4-div .inner-divs h2 {
   font-size: 25px;
-  color: rgb(206, 42, 206);
+  color: rgb(247, 45, 247);
   margin-bottom: 25px;
 }
 .section-four .section4-div .inner-divs p {
@@ -418,7 +432,7 @@ header .buttons-div .second-btn:hover {
 }
 @media screen and (max-width: 600px) {
   .section-four .section4-div .inner-divs p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -429,6 +443,7 @@ header .buttons-div .second-btn:hover {
   padding-bottom: 75px;
   height: -moz-fit-content;
   height: fit-content;
+  font-family: "Poppins", sans-serif;
   background-color: rgb(13, 13, 34);
   text-align: center;
 }
@@ -455,7 +470,7 @@ header .buttons-div .second-btn:hover {
 }
 @media screen and (max-width: 600px) {
   .section-five .p-title {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .section-five .card-wrapper {
@@ -576,6 +591,7 @@ header .buttons-div .second-btn:hover {
   padding-bottom: 75px;
   height: -moz-fit-content;
   height: fit-content;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   height: fit-content;
   background-color: rgb(13, 13, 34);
@@ -626,6 +642,12 @@ header .buttons-div .second-btn:hover {
 .section-six .box-wrapper .box p {
   color: gray;
   margin-bottom: 15px;
+  font-size: 17px;
+}
+@media screen and (max-width: 600px) {
+  .section-six .box-wrapper .box p {
+    font-size: 16px;
+  }
 }
 .section-six .box-wrapper .box h5 {
   color: rgb(201, 196, 198);
@@ -641,6 +663,7 @@ header .buttons-div .second-btn:hover {
   padding-bottom: 75px;
   height: -moz-fit-content;
   height: fit-content;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   height: fit-content;
   background: linear-gradient(-45deg, rgb(21, 21, 44), rgb(21, 21, 44), rgb(76, 6, 72));
@@ -721,6 +744,7 @@ header .buttons-div .second-btn:hover {
 }
 
 .section-eight {
+  font-family: "Poppins", sans-serif;
   padding-left: 4vw;
   padding-right: 4vw;
   padding-top: 55px;
@@ -757,7 +781,7 @@ header .buttons-div .second-btn:hover {
 }
 @media screen and (max-width: 600px) {
   .section-eight .text-wrapper p {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 .section-eight button {
@@ -768,7 +792,6 @@ header .buttons-div .second-btn:hover {
   padding-right: 12px;
   border: none;
   font-size: 15px;
-  color: rgb(201, 196, 198);
   background-color: rgb(80, 80, 248);
 }
 .section-eight button:hover {
@@ -783,6 +806,7 @@ header .buttons-div .second-btn:hover {
   align-items: center;
   margin: auto;
   flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
   background-color: rgb(13, 13, 34);
   padding-left: 2vw;
   padding-right: 2vw;
@@ -803,10 +827,16 @@ header .buttons-div .second-btn:hover {
 .footer div p {
   color: gray;
   padding: 10px;
-  font-size: 17px;
+  font-size: 18px;
+}
+@media screen and (max-width: 600px) {
+  .footer div p {
+    font-size: 16px;
+  }
 }
 
 .last-section {
+  font-family: "Poppins", sans-serif;
   background-color: black;
   padding: 20px;
   padding-top: 30px;
@@ -817,13 +847,28 @@ header .buttons-div .second-btn:hover {
   color: gray;
   font-size: 18px;
 }
+@media screen and (max-width: 600px) {
+  .last-section a, .last-section p {
+    font-size: 14px;
+  }
+}
 .last-section p {
   color: gray;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 18px;
 }
+@media screen and (max-width: 600px) {
+  .last-section p {
+    margin-top: 12px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .last-section p {
+    font-size: 14px;
+  }
+}
 .last-section h5 {
-  font-size: 18px;
+  font-size: 16px;
   color: gray;
 }
 .last-section h5 span:hover a {

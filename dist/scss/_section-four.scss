@@ -1,7 +1,7 @@
  // SECTION FOUR STYLING
  .section-four{
     @include basics();
- 
+    font-family: 'Poppins', sans-serif;
     height: fit-content;
     background: $bg-gradient;
     text-align: center;
@@ -20,12 +20,12 @@
     }
  
     .p-title{
-       color: $text-color3;
-       font-size: $font-size5;
+       color: $text-color2;
+       font-size: 18px;
        margin-bottom: 90px; 
 
        @media screen and (max-width: 600px) {
-         font-size: 17px;
+         font-size: 16px;
        }
     }
  
@@ -42,7 +42,7 @@
        .inner-divs{
          //  border: 2px solid yellow;
           text-align: left;
-         height: fit-content;
+          height: fit-content;
           width: 420px;
           padding: 10px;
           margin: auto;
@@ -55,8 +55,9 @@
  
           h2{
              font-size: $font-size4;
-             color: rgb(206, 42, 206);
+             color: rgb(247, 45, 247);
              margin-bottom: 25px;
+
           }
  
           p{
@@ -64,7 +65,7 @@
              color: $text-color3;
 
              @media screen and (max-width: 600px) {
-               font-size: 18px;
+               font-size: 16px;
              }
           }
        }

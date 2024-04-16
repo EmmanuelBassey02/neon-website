@@ -1,5 +1,6 @@
 //  SECTION EIGHT STYLING
 .section-eight{
+  font-family: 'Poppins', sans-serif;
     @include basics();
     @include flex();
     flex-wrap: wrap;
@@ -23,7 +24,7 @@
         color: $text-color2;
         font-size: $font-size5;
         @media screen and (max-width: 600px){
-           font-size: 18px;
+           font-size: 16px;
           }
       }
      }

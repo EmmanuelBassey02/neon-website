@@ -10,6 +10,7 @@
 
 
 header{
+   font-family: 'Poppins', sans-serif;
     background-color: $background-color;
     @include flex();
     gap: 30px;
@@ -39,7 +40,11 @@ header{
        gap: 30px;
  
        .first-btn{
-          color: $text-color2;
+          color: black;
+          &:hover{
+            background-color: rgb(190, 186, 190);
+            color: black;
+          }
  
           @include button();
        }

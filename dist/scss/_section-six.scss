@@ -1,7 +1,7 @@
 //  SECTION SIX STYLING
 .section-six{
     @include basics();
- 
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     height: fit-content;
     background-color: $background-color2;
@@ -49,6 +49,11 @@
           p{
              color: $text-color3;
              margin-bottom: 15px;
+             font-size: 17px;
+
+             @media screen and (max-width: 600px){
+               font-size: 16px;
+             }
           }
  
           h5{

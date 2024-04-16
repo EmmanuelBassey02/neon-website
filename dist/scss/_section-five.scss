@@ -1,7 +1,7 @@
 //  SECTION FIVE STYLING
 .section-five{
     @include basics();
-
+    font-family: 'Poppins', sans-serif;
    background-color: $background-color2;
    text-align: center;
 
@@ -21,7 +21,7 @@
       color: $text-color3;
 
       @media screen and (max-width: 600px) {
-         font-size: 18px;
+         font-size: 16px;
        }
     }
 

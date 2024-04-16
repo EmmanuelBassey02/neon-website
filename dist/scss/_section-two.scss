@@ -3,6 +3,7 @@
     @include basics();
     @include flex();
     background-color: black;
+    font-family: 'Poppins', sans-serif;
 
     @media screen and (max-width: 600px){
       height: -10px;

@@ -2,6 +2,7 @@
     // @include basics();
     @include flex();
     flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
 
     background-color: $background-color2;
     padding-left: 2vw;
@@ -27,7 +28,11 @@
         p{
             color: $text-color3;
             padding: 10px;
-            font-size: 17px;
+            font-size: 18px;
+
+            @media screen and (max-width: 600px){
+                font-size: 16px;
+            }
         }
     }
 }
@@ -37,6 +42,7 @@
 
 // Last-section
 .last-section{
+    font-family: 'Poppins', sans-serif;
     background-color: black;
     padding: 20px;
     padding-top: 30px;
@@ -44,19 +50,31 @@
 
     a, p {
         color: $text-color3;
-        // margin-bottom: 40px;
+        //  border: 2px solid red;
         font-size: 18px;
+
+        @media screen and (max-width: 600px) {
+            font-size: 14px;
+        }
     }
 
 
     p{
         color: $text-color3;
-        margin-top: 40px;
+        margin-top: 20px;
         font-size: 18px;
+
+        @media screen and (max-width: 600px){
+            margin-top: 12px;
+        }
+
+        @media screen and (max-width: 600px){
+            font-size: 14px;
+        }
     }
 
     h5{
-        font-size: 18px;
+        font-size: 16px;
         color: $text-color3;
         span{
             &:hover a{

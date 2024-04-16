@@ -3,6 +3,7 @@
     @include basics();
     @include flex();
     flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
     background: $bg-gradient;
    //  border: 2px solid red;
     padding-top: 85px;
@@ -22,8 +23,12 @@
        color: $text-color2;
        background: $flexbox-bg-color;
        border-radius: 20px;
-       padding: 12px;
-      //  margin-bottom: 109px;
+      
+
+       @media screen {
+         padding: 9px;
+         font-size: 12px;
+       }
 
        
  
@@ -42,7 +47,7 @@
        }
 
        @media screen and (max-width: 600px){
-         font-size: 30px;
+         font-size: 35px;
        }
     }
  
@@ -50,10 +55,9 @@
        color: $text-color2;
        font-size:  $font-size5;
        margin-bottom: 10px;
-
        @media screen and (max-width: 600px){
          font-size: 16px;
-         font-family: monospace;
+         // font-family: monospace;
        }
     }
  
@@ -72,6 +76,11 @@
        color: $text-color1;
        font-weight: bold;
       background-color: rgb(73, 72, 72);
+      &:hover{
+         background-color: rgb(248, 245, 248);
+         color: black;
+       }
+
        @include button();
 
        @media screen and (max-width: 600px){
