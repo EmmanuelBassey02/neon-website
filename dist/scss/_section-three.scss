@@ -31,7 +31,11 @@
        width: 90vw;
  
       //  border: 2px solid red;
-       @include flex();
+      display: flex;
+      gap: 35px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
 
       
 
@@ -85,9 +89,7 @@
       //  border: 2px solid red;
        flex-wrap: wrap;
 
-      //  img{
-      //    // width: 60%;
-      //  }
+      
  
  
        .flex-details{
@@ -123,7 +125,7 @@
  
           p{
              color: $text-color3;
-             font-size: 18px;
+             font-size: 16px;
              @media screen and (max-width: 600px){
                font-size: 14px;
              }

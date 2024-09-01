@@ -301,7 +301,7 @@ header .buttons-div .second-btn:hover {
   width: 90vw;
   display: flex;
   gap: 35px;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: auto;
 }
@@ -381,7 +381,7 @@ header .buttons-div .second-btn:hover {
 }
 .section-three .second-flex-div .flex-details p {
   color: gray;
-  font-size: 18px;
+  font-size: 16px;
 }
 @media screen and (max-width: 600px) {
   .section-three .second-flex-div .flex-details p {
@@ -461,7 +461,7 @@ header .buttons-div .second-btn:hover {
   margin-bottom: 25px;
 }
 .section-four .section4-div .inner-divs p {
-  font-size: 20px;
+  font-size: 17px;
   color: gray;
 }
 @media screen and (max-width: 600px) {
